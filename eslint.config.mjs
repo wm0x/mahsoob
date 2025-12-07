@@ -25,9 +25,9 @@ const config = [
       "@next/next": nextPlugin
     },
     rules: {
-      "@next/next/no-img-element": "off",
       "@next/next/no-html-link-for-pages": "warn",
-      "@next/next/no-sync-scripts": "error"
+      "@next/next/no-sync-scripts": "error",
+      "@next/next/no-img-element": "off",
     }
   },
   ...compat.extends(
